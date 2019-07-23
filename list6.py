@@ -10,9 +10,9 @@ b.	List those players who play exactly one game.'''
 
 
 
-Cricket = [ "PKM", "ALN", "GLN", "NVR", "PVR", "KM", "VP", "CS", "MCS"]
-Football = [ "PKM", "ALN","RMZ","CS", "MCS"]
-Badminton = [ "PKM", "ALN", "NV", "KM","RMV"]
+c = [ "PKM", "ALN", "GLN", "NVR", "PVR", "KM", "VP", "CS", "MCS"]
+f = [ "PKM", "ALN","RMZ","CS", "MCS"]
+b = [ "PKM", "ALN", "NV", "KM","RMV"]
 players = []
 players.extend(c)
 players.extend(f)
