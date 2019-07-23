@@ -5,6 +5,4 @@ def fib(num):
         return 1
     else:
         return fib(num - 1) + fib(num - 2)
-for i in range(10):
-
-    print(fib(5))
+print(fib(5))

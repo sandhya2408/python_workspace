@@ -1,11 +1,11 @@
 list = []
 def add(ele):
     list.append(ele)
-def delete():
+def pop():
     if len(list) == 0:
         print("list id empty")
     else:
-        ele = list.delete()
+        ele = list.pop()
         print("element is ", ele)
 def search(ele):
     if len(list) == 0:
@@ -32,7 +32,7 @@ while True:
         ele = int(input("enter the element"))
         add(ele)
     elif ch == 2:
-        delete()
+        pop()
 
     elif ch == 3:
         ele = int(input("enter the element"))
