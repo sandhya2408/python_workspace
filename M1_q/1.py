@@ -13,3 +13,9 @@ if is_prime:
     print(f"{num} is prime number")
 else:
     print(f"{num} is not a prime number")
+    
+num = int(input("enter the number"))
+
+num = int(input("enter the number"))
+
+num = int(input("enter the number"))

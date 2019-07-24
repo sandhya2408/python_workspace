@@ -1,4 +1,6 @@
-
+'''
+8.	Write a function which implements the Pascal's triangle.
+'''
 n=int(input("Enter number of rows: "))
 a=[]
 for i in range(n):
