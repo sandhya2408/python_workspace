@@ -13,5 +13,5 @@ car1.change_gear()
 lst = [car1,car2,car3,car4,car5]
 for car in lst:
     car.showInfo()
-c = len(list(filter(lambda x : x.is_started and x.c_gear==0,lst)))
+c = len(list(filter(lambda x : x.is_started and x.c_gear)))
 print(c)

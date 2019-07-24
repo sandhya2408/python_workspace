@@ -1,0 +1,10 @@
+1,sandhya,btech,40000,is
+2,smriti,btech,42000,ece
+3,divyesh,mtech,50000,cs
+4,deepak,mtech,50000,ece
+5,vikyath,btech,30000,mech
+6,andy,btech,32000,ece
+7,rakesh,mtech,60000,is
+8,neeksha,mtech,56000,cs
+9,shreyas,phd,80000,is
+10,mahima,phd,80000,cs
