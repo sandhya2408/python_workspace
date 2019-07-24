@@ -1,16 +1,16 @@
-def digSum( n): 
+'''7.Write a program to accept a number from the user and determine the sum of digits of that number. Repeat the operation until the sum gets to be a single digit number.'''
+
+sum = 0
+count = 0
+def find_sum(num):
     sum = 0
-      
-    while(n > 0 or sum > 9): 
-      
-        if(n == 0): 
-            n = sum
+    while num > 0 or sum > 9:
+        if num == 0:
+            num = sum 
             sum = 0
-          
-        sum += n % 10
-        n /= 10
-      
+        sum += num % 10
+        num = num // 10
     return sum
-  
-n = 1234
-print (digSum(n))
+num = int(input("enter the number:"))
+res = find_sum(num)
+print(res)
