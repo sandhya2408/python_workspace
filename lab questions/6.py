@@ -1,3 +1,4 @@
+#print string without vowel
 sentence = input("enter a string")
 sentence.lower()
 for i in sentence:
