@@ -28,7 +28,7 @@ def maxSalaryEmp():
     for m in ms:
         m.show_Info()
 def showEmpCountByDeptName():
-    pass
+    set(map(lambda emp:emp.dept_name,lst_emp))
 def showTotalSalByDeptName():
     pass
 def showEmpCountByQual():
